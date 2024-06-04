@@ -21,5 +21,7 @@ python swcr.py --title 'DAB蓝牙收音机音箱软件V1.0' --indirs 'user' --ex
 
 python swcr.py --title '固件合并软件V1.0' --indirs 'src' --exts 'h' 'c' --comment_chars '//' '/*' '/**' '*' '*/' --font_name '宋体' --font_size 10.5 --space_before 0.0 --space_after 2.3 --line_spacing 10.5 --outfile '固件合并软件V1.0.docx'
 
+python swcr.py --title '模拟空中升级软件V1.0.1' --indirs 'user' --exts 'h' 'c' --comment_chars '//' '/*' '/**' '*' '*/' --font_name '宋体' --font_size 10.5 --space_before 0.0 --space_after 2.3 --line_spacing 10.5 --outfile '模拟空中升级软件V1.0.1.docx'
+
 // 打包程序为exe
 pyinstaller -i apple.ico -n swcr -F swcr.py --noconsole
